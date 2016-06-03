@@ -1,0 +1,106 @@
+@import "variables";
+@import "comun";
+@import "contacto";
+
+// *{outline: 1px solid blue;}
+
+
+
+a, i{
+	color: $plomo_oscuro;
+	text-decoration: none;
+}
+.row{
+	padding: 2% 0;
+}
+
+.carousel{
+	text-align: center;
+	img{
+		height: 450px;
+		width: 100%;
+	}
+	h1{
+		color: $blanco;
+		border: 1px solid $blanco;
+		padding:5%;
+		margin-bottom: 10%;
+	}
+	p{
+		color: $blanco;
+	}
+}
+
+.productos{
+
+	.banners{
+		img{
+			height:300px;
+			width: 100%;
+		}
+	}
+
+	.separador{
+		text-align: center;
+	}
+
+	.carteras{
+		.marco{
+			border: 1px solid $plomo;
+			padding-top: 1%;
+			width: 270px;
+			margin-right: 2%;
+			text-align: center;
+			img{
+				width: 100%;
+			}
+		}
+		.marco:nth-child(4){
+			margin-right: 0;
+		}
+
+		.linea{
+			border: 1px solid $plomo;
+			padding: 1%;
+			width: 195px;
+			img{
+				width: 100%;
+			}
+		}
+	}
+}
+.clientes{
+	height: 150px;
+	padding: 3.5% 0;
+	background:{
+		image:url("../images/client-bg.jpg");
+		size:cover;
+		} 
+
+	img{
+		height: 50px;
+		width: 150px;
+		margin: 0 1.5%;
+	}
+}
+
+.blog{
+	.personas{
+		margin: 1% 0;
+		img{
+			width: 260px;
+		}
+	}
+}
+
+.reserva{
+	.ofertas{
+		outline: 1px solid $plomo;
+		outline-offset: -10px;
+		padding: 3%;
+		i{
+			border-right: 1px solid $plomo;
+			padding: 0 5%;
+		}
+	}
+}

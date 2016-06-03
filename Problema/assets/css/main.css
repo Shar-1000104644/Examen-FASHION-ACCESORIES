@@ -1,0 +1,426 @@
+/*----------Backgraund------------*/
+/*----------Colores------------*/
+/*----------Iconos------------*/
+/* -----------------------------------------------------------------------------------------------------
+                                        ENCABEZADO 
+----------------------------------------------------------------------------------------------------*/
+.encabezado .row, .accesorios .row, .menu .row {
+  padding: 0; }
+
+.encabezado {
+  background: #EEEEEE;
+  padding: 0.5% 0; }
+  .encabezado ul {
+    width: 100%; }
+    .encabezado ul li {
+      width: 135px; }
+      .encabezado ul li a {
+        padding: 0 2% 0 5%; }
+
+.accesorios {
+  padding: 2% 0; }
+  .accesorios img {
+    margin: 0 5%; }
+  .accesorios .buscador {
+    border: 1px solid #F1F1F1;
+    width: 200px;
+    margin: 5% 0;
+    padding: 1%; }
+    .accesorios .buscador input {
+      border: none; }
+
+.menu {
+  background: #EEEEEE; }
+  .menu .principal ul {
+    width: 100%;
+    height: 20px;
+    margin: 0; }
+    .menu .principal ul li {
+      padding: 5%;
+      color: #000; }
+      .menu .principal ul li:hover {
+        background: #E48080; }
+  .menu .dropdown button {
+    border: none;
+    background: #000;
+    color: #fff; }
+    .menu .dropdown button i {
+      color: #fff; }
+  .menu .dropdown li {
+    width: 300px;
+    padding: .5% 5%; }
+    .menu .dropdown li img {
+      width: 120px; }
+    .menu .dropdown li p {
+      text-align: left; }
+
+/* -----------------------------------------------------------------------------------------------------
+                                        PRE-FOOTER  &  FOOTER 
+----------------------------------------------------------------------------------------------------*/
+.pre-footer {
+  background: #F1F1F1; }
+  .pre-footer .sociales i {
+    padding: 5%;
+    background: #fff;
+    margin: 2%; }
+  .pre-footer li {
+    margin: 4% 0; }
+  .pre-footer a {
+    padding-left: 5%; }
+  .pre-footer .contac i {
+    background: #fff;
+    border-radius: 100%;
+    padding: 5%;
+    margin-left: 1%; }
+
+.footer {
+  background: #444444; }
+  .footer a {
+    color: #fff; }
+  .footer img {
+    margin-left: 60%; }
+
+/* -----------------------------------------------------------------------------------------------------
+                                        MENU SECUNDARIO 
+----------------------------------------------------------------------------------------------------*/
+.separador li {
+  color: #F1F1F1; }
+  .separador li:hover {
+    color: #000; }
+
+/* -----------------------------------------------------------------------------------------------------
+                                        ICONOS 
+----------------------------------------------------------------------------------------------------*/
+.icon-g {
+  font-size: 50px; }
+
+.icon-n {
+  font-size: 20px;
+  color: #000; }
+
+.icon-p {
+  font-size: 10px;
+  color: #F1F1F1; }
+
+/* -----------------------------------------------------------------------------------------------------
+                                        DIVISION 
+--------------------------------------------------------------------------------------------*/
+hr {
+  border: 0;
+  border-top: 4px double #F1F1F1;
+  width: 90%; }
+
+.x {
+  display: inline-block;
+  margin-right: 40%; }
+
+.tr {
+  text-aling: center;
+  display: inline-block;
+  color: #E48080; }
+
+.dl {
+  display: inline-block; }
+
+.red {
+  color: #E48080; }
+
+.fa-star, .fa-star-o {
+  display: inline-block; }
+
+.fa-shopping-cart {
+  color: #fff; }
+
+.capa {
+  background-color: rgba(20, 28, 32, 0.5);
+  height: 100%; }
+
+.sale, .new {
+  padding: 5%;
+  color: #fff;
+  whidth: 40px;
+  height: 30px;
+  position: relative;
+  bottom: 230px;
+  right: 100px; }
+
+.sale {
+  background: #000; }
+
+.new {
+  background: #E48080; }
+
+/* -----------------------------------------------------------------------------------------------------
+                                        BOTONES 
+--------------------------------------------------------------------------------------------*/
+.carro {
+  height: 30px;
+  width: 120px;
+  background: #000;
+  color: #fff;
+  text-align: center; }
+
+/*----------Backgraund------------*/
+/*----------Colores------------*/
+/*----------Iconos------------*/
+/* -----------------------------------------------------------------------------------------------------
+                                        ENCABEZADO 
+----------------------------------------------------------------------------------------------------*/
+.encabezado .row, .accesorios .row, .menu .row {
+  padding: 0; }
+
+.encabezado {
+  background: #EEEEEE;
+  padding: 0.5% 0; }
+  .encabezado ul {
+    width: 100%; }
+    .encabezado ul li {
+      width: 135px; }
+      .encabezado ul li a {
+        padding: 0 2% 0 5%; }
+
+.accesorios {
+  padding: 2% 0; }
+  .accesorios img {
+    margin: 0 5%; }
+  .accesorios .buscador {
+    border: 1px solid #F1F1F1;
+    width: 200px;
+    margin: 5% 0;
+    padding: 1%; }
+    .accesorios .buscador input {
+      border: none; }
+
+.menu {
+  background: #EEEEEE; }
+  .menu .principal ul {
+    width: 100%;
+    height: 20px;
+    margin: 0; }
+    .menu .principal ul li {
+      padding: 5%;
+      color: #000; }
+      .menu .principal ul li:hover {
+        background: #E48080; }
+  .menu .dropdown button {
+    border: none;
+    background: #000;
+    color: #fff; }
+    .menu .dropdown button i {
+      color: #fff; }
+  .menu .dropdown li {
+    width: 300px;
+    padding: .5% 5%; }
+    .menu .dropdown li img {
+      width: 120px; }
+    .menu .dropdown li p {
+      text-align: left; }
+
+/* -----------------------------------------------------------------------------------------------------
+                                        PRE-FOOTER  &  FOOTER 
+----------------------------------------------------------------------------------------------------*/
+.pre-footer {
+  background: #F1F1F1; }
+  .pre-footer .sociales i {
+    padding: 5%;
+    background: #fff;
+    margin: 2%; }
+  .pre-footer li {
+    margin: 4% 0; }
+  .pre-footer a {
+    padding-left: 5%; }
+  .pre-footer .contac i {
+    background: #fff;
+    border-radius: 100%;
+    padding: 5%;
+    margin-left: 1%; }
+
+.footer {
+  background: #444444; }
+  .footer a {
+    color: #fff; }
+  .footer img {
+    margin-left: 60%; }
+
+/* -----------------------------------------------------------------------------------------------------
+                                        MENU SECUNDARIO 
+----------------------------------------------------------------------------------------------------*/
+.separador li {
+  color: #F1F1F1; }
+  .separador li:hover {
+    color: #000; }
+
+/* -----------------------------------------------------------------------------------------------------
+                                        ICONOS 
+----------------------------------------------------------------------------------------------------*/
+.icon-g {
+  font-size: 50px; }
+
+.icon-n {
+  font-size: 20px;
+  color: #000; }
+
+.icon-p {
+  font-size: 10px;
+  color: #F1F1F1; }
+
+/* -----------------------------------------------------------------------------------------------------
+                                        DIVISION 
+--------------------------------------------------------------------------------------------*/
+hr {
+  border: 0;
+  border-top: 4px double #F1F1F1;
+  width: 90%; }
+
+.x {
+  display: inline-block;
+  margin-right: 40%; }
+
+.tr {
+  text-aling: center;
+  display: inline-block;
+  color: #E48080; }
+
+.dl {
+  display: inline-block; }
+
+.red {
+  color: #E48080; }
+
+.fa-star, .fa-star-o {
+  display: inline-block; }
+
+.fa-shopping-cart {
+  color: #fff; }
+
+.capa {
+  background-color: rgba(20, 28, 32, 0.5);
+  height: 100%; }
+
+.sale, .new {
+  padding: 5%;
+  color: #fff;
+  whidth: 40px;
+  height: 30px;
+  position: relative;
+  bottom: 230px;
+  right: 100px; }
+
+.sale {
+  background: #000; }
+
+.new {
+  background: #E48080; }
+
+/* -----------------------------------------------------------------------------------------------------
+                                        BOTONES 
+--------------------------------------------------------------------------------------------*/
+.carro {
+  height: 30px;
+  width: 120px;
+  background: #000;
+  color: #fff;
+  text-align: center; }
+
+.contacto-top {
+  vertical-align: middle;
+  color: #fff;
+  height: 400px;
+  background-image: url("../images/contacto.jpg");
+  background-size: cover;
+  background-position: center; }
+  .contacto-top h1 {
+    background: #E48080;
+    font-size: 60px;
+    padding: 5%;
+    margin: 10% auto; }
+  .contacto-top .info {
+    margin-top: 3%; }
+    .contacto-top .info p {
+      padding: 2% 5%; }
+
+.contacto-bot {
+  padding: 0 10%; }
+  .contacto-bot .row {
+    padding: 1% 0; }
+  .contacto-bot input {
+    width: 250px;
+    background: #F1F1F1;
+    margin: 0 1% 6% 1%;
+    padding: 1%; }
+  .contacto-bot input:nth-child(5) {
+    width: 510px; }
+  .contacto-bot input:nth-child(6) {
+    width: 510px;
+    height: 240px; }
+  .contacto-bot button {
+    margin-left: 90%; }
+
+a, i {
+  color: #444444;
+  text-decoration: none; }
+
+.row {
+  padding: 2% 0; }
+
+.carousel {
+  text-align: center; }
+  .carousel img {
+    height: 450px;
+    width: 100%; }
+  .carousel h1 {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5%;
+    margin-bottom: 10%; }
+  .carousel p {
+    color: #fff; }
+
+.productos .banners img {
+  height: 300px;
+  width: 100%; }
+
+.productos .separador {
+  text-align: center; }
+
+.productos .carteras .marco {
+  border: 1px solid #F1F1F1;
+  padding-top: 1%;
+  width: 270px;
+  margin-right: 2%;
+  text-align: center; }
+  .productos .carteras .marco img {
+    width: 100%; }
+
+.productos .carteras .marco:nth-child(4) {
+  margin-right: 0; }
+
+.productos .carteras .linea {
+  border: 1px solid #F1F1F1;
+  padding: 1%;
+  width: 195px; }
+  .productos .carteras .linea img {
+    width: 100%; }
+
+.clientes {
+  height: 150px;
+  padding: 3.5% 0;
+  background-image: url("../images/client-bg.jpg");
+  background-size: cover; }
+  .clientes img {
+    height: 50px;
+    width: 150px;
+    margin: 0 1.5%; }
+
+.blog .personas {
+  margin: 1% 0; }
+  .blog .personas img {
+    width: 260px; }
+
+.reserva .ofertas {
+  outline: 1px solid #F1F1F1;
+  outline-offset: -10px;
+  padding: 3%; }
+  .reserva .ofertas i {
+    border-right: 1px solid #F1F1F1;
+    padding: 0 5%; }

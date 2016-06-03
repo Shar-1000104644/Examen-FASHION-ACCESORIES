@@ -1,0 +1,93 @@
+block encabezado
+	.encabezado
+		.container
+			.row
+				.col-md-4
+					p.pull-left Defaul welcome asd!
+
+				.col-md-8.hidden-xs
+					ul.list-unstyled.list-inline.pull-right
+						li.pull-right 	
+							i.fa.fa-user
+							a(href="index.html#delicias") My Acaundf
+							i.fa.fa-angle-down
+						li.pull-right 
+							i.fa.fa-usd
+							a(href="index.html#delicias") Precie
+							i.fa.fa-angle-down
+						li.pull-right 
+							img(src="../images/flag1.png")
+							a(href="index.html#delicias") Lenhuaje
+							i.fa.fa-angle-down
+			.row
+				.visible-xs
+					.dropdown
+						button#dropdownMenu1.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='true')
+							i.fa.fa-bars
+						ul.dropdown-menu(aria-labelledby='dropdownMenu1')
+							li
+								a(href='#') Action
+							li
+								a(href='#') Another action
+	.accesorios
+		.container
+			.row
+				.col-md-4
+					i.fa.fa-clock-o.icon-g.pull-left
+					p.pull-let OPENING TIME
+					p.pull-let 9:00AM-10:00AM					
+				.col-md-4.text-center
+					img(src="../images/logo.png")
+				.col-md-4
+					.buscador.pull-right
+						input(placeholder="Search")
+						i.fa.fa-search.icon-n
+	.menu
+		.container
+			.row
+				.col-md-6.principal
+					ul.list-unstyled.list-inline
+						li
+							a(href='index.html') HOMEW
+
+						li
+							a(href='contacto.html') CONTACT
+				.col-md-6
+					.dropdown.pull-right
+						button#dropdownMenu1.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='true')
+							i.fa.fa-shopping-cart.icon-n.pull-left
+							p My Cart
+							p items - $968.00
+						ul.dropdown-menu(aria-labelledby='dropdownMenu1')
+							li
+								img(src="../images/cart-1.jpg")
+								p.pull-right Aliquim
+								p.pull-right 1 x $500.00    x
+
+							li
+								img(src="../images/cart-2.jpg")
+								p.pull-right Aliquim
+								p.pull-right 1 x $500.00    x
+							li
+								p.x Sub-Total
+								&nbsp 
+								P.tr $7.00
+							li
+								p.x Eco Tax (-2.00)
+								&nbsp 
+								P.tr $7.00
+							li
+								p.x VAT (20%)
+								&nbsp 
+								P.tr $40.00
+
+			
+
+
+
+
+
+
+
+
+

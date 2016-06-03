@@ -1,0 +1,24 @@
+{
+  "name": "rosales",
+  "version": "1.0.0",
+  "description": "Portafolio de Rosario Rosales Calle - Laboratoria",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Shar-1000104644@github.com/Shar-1000104644/Rosales.git"
+  },
+  "author": "Rosales Calle,Rosario",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shar-1000104644/Rosales/issues"
+  },
+  "homepage": "https://github.com/Shar-1000104644/Rosales#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^2.3.1"
+  }
+}

@@ -1,0 +1,186 @@
+/* -----------------------------------------------------------------------------------------------------
+                                        ENCABEZADO 
+----------------------------------------------------------------------------------------------------*/
+.encabezado, .accesorios, .menu {
+	.row{
+		padding: 0;
+	}
+}
+
+.encabezado{
+	background: $bg_uno;
+	padding: 0.5% 0;
+	ul{
+		width: 100%;
+		li{
+			width: 135px;
+			a{
+				padding:0 2% 0 5%;
+			}
+		}
+	}
+}
+
+.accesorios{
+	padding: 2% 0;
+	img{
+		margin: 0 5%;
+	}
+	.buscador{
+		border:1px solid $plomo;
+		width: 200px;
+		margin: 5% 0;
+		padding: 1%;
+
+		input{
+			border:none;
+		}
+	}
+}
+
+.menu{
+	background: $bg_uno;
+	.principal{
+		ul{
+			width: 100%;
+			height: 20px;
+			margin: 0;
+			li{
+				padding: 5%;
+				color: $negro;
+				&:hover{
+					background:$rojo;
+				}
+
+			}
+		}
+	}
+	.dropdown{
+		button{
+			border: none;
+			background: $negro;
+			color: $blanco;
+			i{
+				color: $blanco;
+			}
+		}
+		li{
+			width: 300px;
+			padding: .5% 5%;
+			img{
+				width: 120px;
+			}
+			p{
+				text-align: left;
+			}
+		}
+	}
+
+}
+
+
+/* -----------------------------------------------------------------------------------------------------
+                                        PRE-FOOTER  &  FOOTER 
+----------------------------------------------------------------------------------------------------*/
+
+.pre-footer{
+	background: $plomo;
+
+	.sociales{
+		i{
+			padding: 5%;
+			background: $blanco;
+			margin: 2%;
+		}
+	}
+	
+	li{
+		margin: 4% 0;
+	}
+
+	a{ 
+		padding-left: 5%;	
+	}
+
+	.contac{
+		i{
+			background: $blanco;
+			border-radius: 100%;
+			padding: 5%;
+			margin-left: 1%;
+		}
+	}
+}
+
+.footer{
+	background: $plomo_oscuro;
+		a{
+			color:$blanco;
+		}
+		img{
+			margin-left: 60%;
+		}
+}
+
+/* -----------------------------------------------------------------------------------------------------
+                                        MENU SECUNDARIO 
+----------------------------------------------------------------------------------------------------*/
+
+.separador{
+	li{
+		color:$plomo;
+		&:hover{
+			color: $negro;
+		}
+	}
+}
+
+
+/* -----------------------------------------------------------------------------------------------------
+                                        ICONOS 
+----------------------------------------------------------------------------------------------------*/
+
+.icon-g{
+	font-size: 50px;
+}
+.icon-n{
+	font-size: 20px;
+	color: $negro;
+
+}
+.icon-p{
+	font-size: 10px;
+	color: $plomo;
+}
+
+
+/* -----------------------------------------------------------------------------------------------------
+                                        DIVISION 
+--------------------------------------------------------------------------------------------*/
+
+hr { border: 0 ; border-top: 4px double $plomo; width: 90%;}
+.x { display: inline-block;margin-right:40%;}
+.tr{ text-aling:center; display:inline-block;color:$rojo;}
+.dl { display: inline-block;}
+.red{ color: $rojo}
+.fa-star, .fa-star-o { display: inline-block;}
+.fa-shopping-cart{ color: $blanco;}
+.capa{ background-color: rgba(20, 28, 32, 0.5); height:100%; 
+}
+.sale, .new{ padding:5%; color:$blanco;whidth:40px; height:30px;position:relative; bottom:230px; right:100px;}
+.sale { background: $negro;}
+.new { background: $rojo;}
+
+/* -----------------------------------------------------------------------------------------------------
+                                        BOTONES 
+--------------------------------------------------------------------------------------------*/
+
+.carro{
+	height: 30px;
+	width: 120px;
+	background: $negro;
+	color:$blanco;
+	text-align: center;
+}
+
+
